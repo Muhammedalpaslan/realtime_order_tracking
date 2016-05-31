@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: #222930;	
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav{
+	background-color: rgba(0,0,0,.6);
+	padding: 15px;
+}
+
+.title, .logout{
+	font-size: 2em;
+}
+
+.title{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color:#F0F0F0;
+	text-align:left;
+}
+
+.logout{
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight:1;
+	padding: 2px;
+	border-color: #4EB1BA;
+	border-width: 3px;
+	border-style: solid;
+	color:#E9E9E9;
+	float: right;
+}
+
+.main{
+	padding:20px;
+}
+
+.orderTable{
+	align: center;
+	border-collapse: collapse; 
+	border-spacing: 0;
+	vertical-align:middle;
+	margin:auto;
+	
+}
+
+.orderItem,.orderFooter,.orderGtotal{
+	text-align: right;
+}
+
+
+.orderHeader,.orderFooter,.orderGtotal{
+	padding: 10px;
+	background-color:rgba(0,0,0,.3);;
+	font-weight: bold;
+	color:#F0F0F0;
+	border-color:#000000;
+	
+}
+
+
+
+
